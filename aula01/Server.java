@@ -10,7 +10,7 @@ import java.net.SocketException;
  */
 public class Server {
     public static void main(String[] args) {
-        final int PORT = 4321;
+        final int PORT = 4322;
         DatagramPacket pacote;
         byte[] dados = new byte[1024];
         DatagramSocket serverSocket;
